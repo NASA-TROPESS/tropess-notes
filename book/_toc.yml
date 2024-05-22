@@ -1,0 +1,87 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: Introduction
+    chapters:
+    - file: intro-instruments  
+    - file: intro-collections  
+    - file: intro-product-flavors  
+
+  - caption: Datasets
+    chapters:
+    - file: intro-datasets-forward  
+      sections:
+      - file: intro-datasets-forward-airs-omi
+      - file: intro-datasets-forward-cris-jpss-1
+      - file: intro-datasets-forward-cris-snpp
+    
+    - file: intro-datasets-reanalysis  
+      sections:
+      - file: intro-datasets-reanalysis-airs
+      - file: intro-datasets-reanalysis-cris-snpp  
+    
+    - file: intro-datasets-special
+      sections:
+      - file: intro-datasets-special-megacities 
+
+  - caption: Setup  
+    chapters:
+    - file: setup-macos 
+
+  - caption: Data Access
+    chapters:
+    - file: data-access-macos
+    - file: data-access-linux
+
+  - caption: Quick Start
+    chapters:
+    - file: quick-start-download-data  
+    - file: quick-start-scatter-plot-methane-column
+    - file: quick-start-gridded-plot-methane-column
+    - file: quick-start-scatter-plot-methane-profile
+
+  - caption: How to Run
+    chapters:
+    - file: how-to-run-macos
+    - file: how-to-run-google-colab
+    - file: how-to-run-sagemaker-studio-lab
+
+  - caption: Data Analysis
+    chapters:
+    - file: data-analysis-carbon-monoxide 
+      sections:
+      - file: data-analysis-carbon-monoxide-download-data
+      - file: data-analysis-carbon-monoxide-plot-levels
+      - file: data-analysis-carbon-monoxide-plot-column-xvmr
+    - file: data-analysis-methane
+      sections:
+      - file: data-analysis-methane-download-data
+      - file: data-analysis-methane-plot-levels
+      - file: data-analysis-methane-plot-partial-column-xvmr
+    - file: data-analysis-ozone
+      sections:
+      - file: data-analysis-ozone-download-data
+      - file: data-analysis-ozone-plot-levels
+      - file: data-analysis-ozone-plot-column-vcd
+
+  
+  - caption: Global Events
+    chapters:
+    - file: brazilian-fires
+      sections:
+      - file: brazilian-fires-download-data
+      - file: brazilian-fires-gridded-plot-ammonia-column
+      - file: brazilian-fires-gridded-plot-carbon-monoxide-column
+      - file: brazilian-fires-gridded-plot-peroxyacetyl-nitrate-column
+    - file: canadian-fires
+      sections:
+      - file: canadian-fires-download-data
+      - file: canadian-fires-gridded-plot-carbon-monoxide-column
+
+  - caption: Miscellaneous
+    chapters:
+    - file: license  
+    - file: citation  

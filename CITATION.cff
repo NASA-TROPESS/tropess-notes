@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Kantchev"
+  given-names: "Valentin"
+  orcid: "https://orcid.org/0009-0008-8961-4573"
+title: "TROPESS Notes - Assorted Jupyter notebooks for TROPESS data access and analysis."
+version: 0.2.0
+date-released: 2023-06-07
+url: "https://github.com/NASA-TROPESS/tropess-notes/"
+institutional affiliation: Jet Propulsion Laboratory, California Institute of Technology.
+acknowledgement: These activities were carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration (NASA). © 2023. All rights reserved. California Institute of Technology, Pasadena, CA. Government sponsorship acknowledged.
